@@ -28,7 +28,7 @@
   - [x] 1.6 Write unit tests for `FighterNFT.sol` to verify minting and stat assignment.
   - [x] 1.7 Write unit tests for `FightClub.sol` to verify staking, fight logic, and stake return.
 - [ ] 2.0 Smart Contract Deployment & Hedera Integration
-  - [ ] 2.1 Configure `hardhat.config.js` with Hedera Testnet details and compiler settings.
+  - [x] 2.1 Configure `hardhat.config.js` with Hedera Testnet details and compiler settings.
   - [ ] 2.2 [Human] Create and fund Hedera Testnet accounts for deployment and testing.
   - [ ] 2.3 Create a `.env` file and add the private key for the deployment account.
   - [ ] 2.4 Write a deployment script (`scripts/deploy.js`) for both contracts.
