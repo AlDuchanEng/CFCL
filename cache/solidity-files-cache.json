@@ -609,6 +609,45 @@
       "artifacts": [
         "IERC721Receiver"
       ]
+    },
+    "C:\\Users\\EliaL\\Desktop\\AllCodingFrom26.06\\CFCL\\contracts\\FightClub.sol": {
+      "lastModificationDate": 1751713934382,
+      "contentHash": "bf1c902eca05df46250ee530f2aa888d",
+      "sourceName": "contracts/FightClub.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "./FighterNFT.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FightClub"
+      ]
     }
   }
 }

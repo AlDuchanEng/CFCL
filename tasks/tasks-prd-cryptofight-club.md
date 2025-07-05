@@ -2,6 +2,8 @@
 
 - `contracts/FighterNFT.sol` - Smart contract for minting Fighter NFTs with STR, DEX, and HP stats.
 - `contracts/FightClub.sol` - Smart contract handling staking, NPC generation, and on-chain fight logic.
+- `test/FighterNFT.test.js` - Unit tests for FighterNFT contract verifying minting and stat assignment.
+- `test/FightClub.test.js` - Unit tests for FightClub contract verifying staking, fight logic, and stake return.
 - `scripts/deploy.js` - Deployment script for deploying both contracts to the Hedera Testnet.
 - `test/fight-club.test.js` - Unit and integration tests for the smart contracts.
 - `src/App.jsx` - Main frontend component for user interaction (minting, fighting).
@@ -20,11 +22,11 @@
 - [ ] 1.0 Project Setup & Smart Contract Development
   - [x] 1.1 Initialize a Hardhat project (`npx hardhat`).
   - [x] 1.2 Install necessary dependencies: `ethers`, `hardhat`, `@hashgraph/sdk`, `dotenv`.
-  - [ ] 1.3 Develop the `FighterNFT.sol` contract with minting logic and stats (STR, DEX, HP).
-  - [ ] 1.4 Develop the `FightClub.sol` contract with staking, NPC generation, and turn-based fight logic.
-  - [ ] 1.5 Implement a verifiable on-chain pseudo-RNG using `blockhash` for fight outcomes.
-  - [ ] 1.6 Write unit tests for `FighterNFT.sol` to verify minting and stat assignment.
-  - [ ] 1.7 Write unit tests for `FightClub.sol` to verify staking, fight logic, and stake return.
+  - [x] 1.3 Develop the `FighterNFT.sol` contract with minting logic and stats (STR, DEX, HP).
+  - [x] 1.4 Develop the `FightClub.sol` contract with staking, NPC generation, and turn-based fight logic.
+  - [x] 1.5 Implement a verifiable on-chain pseudo-RNG using `blockhash` for fight outcomes.
+  - [x] 1.6 Write unit tests for `FighterNFT.sol` to verify minting and stat assignment.
+  - [x] 1.7 Write unit tests for `FightClub.sol` to verify staking, fight logic, and stake return.
 - [ ] 2.0 Smart Contract Deployment & Hedera Integration
   - [ ] 2.1 Configure `hardhat.config.js` with Hedera Testnet details and compiler settings.
   - [ ] 2.2 [Human] Create and fund Hedera Testnet accounts for deployment and testing.
