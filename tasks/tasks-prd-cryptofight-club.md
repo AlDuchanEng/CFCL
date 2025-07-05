@@ -18,8 +18,8 @@
 ## Tasks
 
 - [ ] 1.0 Project Setup & Smart Contract Development
-  - [ ] 1.1 Initialize a Hardhat project (`npx hardhat`).
-  - [ ] 1.2 Install necessary dependencies: `ethers`, `hardhat`, `@hashgraph/sdk`, `dotenv`.
+  - [x] 1.1 Initialize a Hardhat project (`npx hardhat`).
+  - [x] 1.2 Install necessary dependencies: `ethers`, `hardhat`, `@hashgraph/sdk`, `dotenv`.
   - [ ] 1.3 Develop the `FighterNFT.sol` contract with minting logic and stats (STR, DEX, HP).
   - [ ] 1.4 Develop the `FightClub.sol` contract with staking, NPC generation, and turn-based fight logic.
   - [ ] 1.5 Implement a verifiable on-chain pseudo-RNG using `blockhash` for fight outcomes.
