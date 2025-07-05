@@ -40,7 +40,7 @@
   - [x] 2.6 [Human] Verify the deployed smart contracts on HashScan.
   - [x] 2.7 Document the deployed contract addresses in the project's README or a config file.
 - [ ] 3.0 Frontend Development for Core Gameplay Loop
-  - [ ] 3.1 Set up a basic frontend project (e.g., using Vite: `npm create vite@latest`).
+  - [x] 3.1 Set up a basic frontend project (e.g., using Vite: `npm create vite@latest`).
   - [ ] 3.2 Implement wallet connection for HashPack.
   - [ ] 3.3 Create a UI component to call the `mint` function on the `FighterNFT` contract.
   - [ ] 3.4 Create a UI component to display the player's minted fighter and its stats.
