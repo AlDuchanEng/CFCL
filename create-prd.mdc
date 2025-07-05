@@ -1,5 +1,5 @@
 ---
-description: Cursor rule for generating a Hedera‑hackathon Product Requirements Document (PRD)
+description: Copilot rule for generating a Hedera‑hackathon Product Requirements Document (PRD)
 globs:
 alwaysApply: false
 ---
