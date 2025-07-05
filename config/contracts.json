@@ -1,0 +1,27 @@
+{
+  "hedera-testnet": {
+    "network": "hedera-testnet",
+    "chainId": 296,
+    "rpcUrl": "https://testnet.hashio.io/api",
+    "explorer": "https://hashscan.io/testnet",
+    "deployer": "0x392CA6F4CCd2F8577fd876dc1805353041eD81Df",
+    "deploymentDate": "2025-07-05T15:16:50.739Z",
+    "contracts": {
+      "FighterNFT": {
+        "address": "0xd565d1cb8A84FCF656E369C1Db2d2c26Ae2642c1",
+        "name": "CryptoFightClub Fighter",
+        "symbol": "CFCF",
+        "verified": true,
+        "hashscanUrl": "https://hashscan.io/testnet/contract/0xd565d1cb8A84FCF656E369C1Db2d2c26Ae2642c1"
+      },
+      "FightClub": {
+        "address": "0xF4DA9F2d1e2c62342A00664297a01F9534FFf4D2",
+        "minStake": "0.001",
+        "verified": true,
+        "hashscanUrl": "https://hashscan.io/testnet/contract/0xF4DA9F2d1e2c62342A00664297a01F9534FFf4D2"
+      }
+    },
+    "gasUsed": "1.2949299",
+    "totalCost": "1.29 HBAR"
+  }
+}

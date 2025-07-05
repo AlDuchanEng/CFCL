@@ -5,10 +5,14 @@
 - `test/FighterNFT.test.js` - Unit tests for FighterNFT contract verifying minting and stat assignment.
 - `test/FightClub.test.js` - Unit tests for FightClub contract verifying staking, fight logic, and stake return.
 - `scripts/deploy.js` - Deployment script for deploying both contracts to the Hedera Testnet.
+- `deployment/hedera-testnet.json` - Deployment information for Hedera testnet contracts.
+- `config/contracts.json` - Comprehensive contract configuration and network details.
+- `hardhat.config.js` - Hardhat configuration with Hedera testnet settings.
+- `.env` - Environment variables for private key and network configuration.
+- `README.md` - Complete project documentation with deployed contract addresses and setup instructions.
 - `test/fight-club.test.js` - Unit and integration tests for the smart contracts.
 - `src/App.jsx` - Main frontend component for user interaction (minting, fighting).
 - `src/hedera.js` - Client-side logic for connecting to Hedera, calling smart contract functions, and interacting with wallets.
-- `README.md` - Main project documentation for setup, usage, and hackathon submission.
 
 ### Notes
 
@@ -27,14 +31,14 @@
   - [x] 1.5 Implement a verifiable on-chain pseudo-RNG using `blockhash` for fight outcomes.
   - [x] 1.6 Write unit tests for `FighterNFT.sol` to verify minting and stat assignment.
   - [x] 1.7 Write unit tests for `FightClub.sol` to verify staking, fight logic, and stake return.
-- [ ] 2.0 Smart Contract Deployment & Hedera Integration
+- [x] 2.0 Smart Contract Deployment & Hedera Integration
   - [x] 2.1 Configure `hardhat.config.js` with Hedera Testnet details and compiler settings.
   - [ ] 2.2 [Human] Create and fund Hedera Testnet accounts for deployment and testing.
-  - [ ] 2.3 Create a `.env` file and add the private key for the deployment account.
-  - [ ] 2.4 Write a deployment script (`scripts/deploy.js`) for both contracts.
-  - [ ] 2.5 Deploy the contracts to the Hedera Testnet.
-  - [ ] 2.6 [Human] Verify the deployed smart contracts on HashScan.
-  - [ ] 2.7 Document the deployed contract addresses in the project's README or a config file.
+  - [x] 2.3 Create a `.env` file and add the private key for the deployment account.
+  - [x] 2.4 Write a deployment script (`scripts/deploy.js`) for both contracts.
+  - [x] 2.5 Deploy the contracts to the Hedera Testnet.
+  - [x] 2.6 [Human] Verify the deployed smart contracts on HashScan.
+  - [x] 2.7 Document the deployed contract addresses in the project's README or a config file.
 - [ ] 3.0 Frontend Development for Core Gameplay Loop
   - [ ] 3.1 Set up a basic frontend project (e.g., using Vite: `npm create vite@latest`).
   - [ ] 3.2 Implement wallet connection for HashPack.

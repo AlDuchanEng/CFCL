@@ -1,0 +1,15 @@
+{
+  "network": "hedera-testnet",
+  "chainId": 296,
+  "deployer": "0x392CA6F4CCd2F8577fd876dc1805353041eD81Df",
+  "timestamp": "2025-07-05T15:16:50.739Z",
+  "contracts": {
+    "FighterNFT": "0xd565d1cb8A84FCF656E369C1Db2d2c26Ae2642c1",
+    "FightClub": "0xF4DA9F2d1e2c62342A00664297a01F9534FFf4D2"
+  },
+  "gasSettings": {
+    "maxFeePerGas": "1160000000000",
+    "maxPriorityFeePerGas": "1000000000"
+  },
+  "verified": true
+}
